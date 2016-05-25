@@ -1,0 +1,18 @@
+Dim t As Integer
+Private Sub Command1_Click()
+Timer1.Interval = 10
+Timer2.Interval = 1
+t = 6000
+End Sub
+
+Private Sub Timer1_Timer()
+t = t - 1
+Text1.Text = Format(t, "00:00")
+If t = 0 Then
+Timer1.Interval = 0
+End If
+End Sub
+
+Private Sub Timer2_Timer()
+Text2.Text = Format(Now, "c")
+End Sub
