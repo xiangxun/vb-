@@ -1,1 +1,3 @@
-# vb6.0 xly41118
+# vb6.0 
+## Visual Basic Programming 上机练习
+## xly41118
